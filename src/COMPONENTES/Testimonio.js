@@ -11,7 +11,8 @@ function Testimonio({ imagen, nombre, pais, cargo, empresa, testimonio }) {
       />
       <div className="contenedor-texto-testimonio">
         <p className="nombre-testimonio">
-          <strong>{nombre} </strong>en {pais}
+          <strong>{nombre} </strong>en {pais}         
+           <strong>{nombre} </strong>en {pais}
         </p>
         <p className="cargo-testimonio">
           {cargo} en<strong> {empresa}</strong>
